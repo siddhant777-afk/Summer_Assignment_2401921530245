@@ -1,27 +1,27 @@
 public class LibraryInterfaceDemo {
     public static void main(String[] args) {
-        KidUser k = new KidUser();
+        KidUser kid = new KidUser();
 
-        k.age = 10;
-        k.bookType = "Kids";
-        k.registerAccount();
-        k.requestBook();
+        kid.age = 10;
+        kid.bookType = "Kids";
+        kid.registerAccount();
+        kid.requestBook();
 
-        k.age = 18;
-        k.bookType = "Fiction";
-        k.registerAccount();
-        k.requestBook();
+        kid.age = 18;
+        kid.bookType = "Fiction";
+        kid.registerAccount();
+        kid.requestBook();
 
-        AdultUser a = new AdultUser();
+        AdultUser ad = new AdultUser();
 
-        a.age = 5;
-        a.bookType = "Kids";
-        a.registerAccount();
-        a.requestBook();
+        ad.age = 5;
+        ad.bookType = "Kids";
+        ad.registerAccount();
+        ad.requestBook();
 
-        a.age = 23;
-        a.bookType = "Fiction";
-        a.registerAccount();
-        a.requestBook();
+        ad.age = 23;
+        ad.bookType = "Fiction";
+        ad.registerAccount();
+        ad.requestBook();
     }
 }
